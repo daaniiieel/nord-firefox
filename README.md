@@ -1,3 +1,4 @@
+![](https://raw.githubusercontent.com/Daaniiieel/nord-firefox/master/ff1.png)
 # nord-firefox
 My firefox userChrome.css theme, based on https://github.com/AnubisZ9/Global-Dark-Nordic-theme/.
 
