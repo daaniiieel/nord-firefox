@@ -165,5 +165,10 @@ margin-inline-start: 0px !important;
 padding-inline-start: 0px !important;
 }
 .urlbarView {
-background:#2e3440 !important
+background:#2e3440 !important;
+}
+
+panelview {
+
+background-color:#2e3440 !important;
 }
