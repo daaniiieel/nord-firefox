@@ -11,4 +11,8 @@ My firefox userChrome.css theme, based on https://github.com/AnubisZ9/Global-Dar
 * URL PopUp background matches everything else
 
 Thanks to the people over at reddit.com/r/FirefoxCSS!
-## Please use the NordGTK theme with this or the URL bar will look odd on Firefox 75+
+
+### Please use one of those themes with this or the URL bar will look odd on Firefox 75+
+* NordGTK
+* Nordic (doesn't look that nice)
+* Arc-Dark
