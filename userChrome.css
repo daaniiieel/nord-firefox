@@ -1,10 +1,10 @@
-/*@import "scrollbars.css";*/
+@import "scrollbars.css";
 
 /* New Tab Flash */
 :root{--newtab-textbox-background-color:#2e3440;}
 
 #browser vbox#appcontent tabbrowser,
-#content, 
+#content,
 #tabbrowser-tabpanels,
 browser[type=content-primary],
 browser[type=content] > html{
@@ -49,7 +49,7 @@ background-color: #2e3440 !important;
   border: none !important;
 }
 
-.tabbrowser-tab::before, 
+.tabbrowser-tab::before,
 .tabbrowser-tab::after{
   display: none !important;
 
@@ -65,7 +65,7 @@ tab
 
 .tab-content[selected="true"]
 {
-   
+
     background-color: #2e3440 !important;
     font-weight: bold !important;
     color : #81A1C1 !important;
@@ -109,19 +109,19 @@ toolbarbutton.scrollbutton-down{ background-color: transparent !important;}
 .tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected="true"]):not([multiselected]){ background-color: transparent !important }
 
 /*Tabs below nav bar
-#nav-bar { 
+#nav-bar {
   -moz-box-ordinal-group: 1 !important;
 }
-#PersonalToolbar { 
+#PersonalToolbar {
   -moz-box-ordinal-group: 2 !important;
 }
-#titlebar { 
+#titlebar {
   -moz-box-ordinal-group: 3 !important;
 }
 */
-#navigator-toolbox{ 
+#navigator-toolbox{
   margin-top: 0px;
-  padding-top:0px !important; 
+  padding-top:0px !important;
 }
 #toolbar-menubar{
   position: fixed;
@@ -150,7 +150,12 @@ toolbarbutton.scrollbutton-down{ background-color: transparent !important;}
 --tabs-border-color:#3b4252 !important;
 
 }
-
+toolbarseparator {
+display: none !important;
+}
+.panel-arrowcontainer {
+background-color:#2e3440 !important;
+}
 #PopupAutoComplete {
 background-color:#2e3440 !important;
 }
@@ -165,10 +170,11 @@ margin-inline-start: 0px !important;
 padding-inline-start: 0px !important;
 }
 .urlbarView {
-background:#2e3440 !important;
+/*background:#2e3440 !important;*/
 }
 
 panelview {
 
 background-color:#2e3440 !important;
 }
+--panel-separator-color: none !important;
